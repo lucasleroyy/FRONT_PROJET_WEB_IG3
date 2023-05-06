@@ -2,6 +2,7 @@
 import React, { useContext } from 'react';
 import { NavLink } from "react-router-dom"
 import { UidContext } from './AppContext';
+import Logout from './Log/Logout';
 
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
             <NavLink exact to="/">
                 <div className="logo">
                     <img src="./img/icon.png" alt="icon"/>
-                    <h3> Liberer L'artiste </h3>
+                    <h3> Libérer L'artiste </h3>
                 </div>
             </NavLink>
         </div>
@@ -31,7 +32,7 @@ const Navbar = () => {
                             </h5>
                             </NavLink></li>
                 </li>
-                Logo logout 
+               <Logout />
             </ul>
         ) : (
             <ul>
