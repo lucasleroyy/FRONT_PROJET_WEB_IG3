@@ -26,5 +26,3 @@ const Profil = () => {
 //image logo
 
 export default Profil;
-
-//test maintenant 
